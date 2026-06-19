@@ -1,7 +1,5 @@
 # End-to-end E-commerce Data Project - AI-Driven Interpretable Dynamic Customer Segmentation
 
-*Patcharanat P.*
-
 ```text
 💡 Click "⋮≡" at top right to show the table of contents.
 ```
@@ -78,7 +76,7 @@ Dataset: [E-Commerce Data - Kaggle](https://www.kaggle.com/datasets/carrie1/ecom
 Clone this repository to obtain all neccessary files, then use it as root working directory.
 
 ```bash
-git clone https://github.com/patcha-ranat/Ecommerce-Invoice-End-to-end.git
+git clone git@github.com:abhirammv2000/Ecommerce-Invoice-End-to-end.git
 ```
 
 In order to properly read the python code with libraries, you would need to install poetry in a separated python environment, create another new one from `poetry install`, and then enable python interpreter to use it.
@@ -105,8 +103,6 @@ poetry env list --full-path
 # it should be something like this:
 # ~\AppData\Local\pypoetry\Cache\virtualenvs\<environment-name>\Scripts\python.exe
 ```
-
-For more detail about Poetry usage, please refer to this: [knowledge: Poetry](https://github.com/patcha-ranat/patcha-ranat/blob/main/knowledge/poetry.md)
 
 With poetry, we can lock dependencies used in the project to make it possible to be reproduced after a long pertiod of time.
 
